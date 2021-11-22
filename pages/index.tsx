@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { withSessionSsr } from '@/helpers/withSession';
 import { IronSessionData } from 'iron-session';
 import { Button } from '@mui/material';
@@ -40,7 +41,7 @@ const Home = ({ user }: IronSessionData): JSX.Element => {
     <div>
       <Link href='/login'>login</Link>
       <div>{user?.nombre}</div>
-      <Button onClick={logout}>Logout</Button>
+      <Button onClick={logout}>LOGOUT</Button>
     </div>
   );
 };
