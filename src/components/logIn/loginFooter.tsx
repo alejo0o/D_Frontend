@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import * as React from 'react';
-=======
->>>>>>> main
 import styled from 'styled-components';
 
 const StyledIcon = styled.i`
@@ -12,7 +9,7 @@ const StyledIcon = styled.i`
 const loginFooter = () => {
   return (
     <div
-      className='d-flex justify-content-between align-items-center p-4 px-5 text-white'
+      className='d-flex justify-content-between align-items-center p-3 px-5 text-white'
       style={{ backgroundColor: '#193498' }}>
       <div>Copyright © 2021. All rights reserved</div>
       <div

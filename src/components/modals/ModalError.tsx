@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import * as React from 'react';
-=======
->>>>>>> main
 import { Modal, Button } from 'react-bootstrap';
 import { ErrorModal } from '@/types/Modal.types';
 

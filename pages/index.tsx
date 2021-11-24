@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import * as React from 'react';
-=======
->>>>>>> main
 import { withSessionSsr } from '@/helpers/withSession';
 import { IronSessionData } from 'iron-session';
 import { Button } from '@mui/material';
@@ -44,11 +41,7 @@ const Home = ({ user }: IronSessionData): JSX.Element => {
     <div>
       <Link href='/login'>login</Link>
       <div>{user?.nombre}</div>
-<<<<<<< HEAD
       <Button onClick={logout}>LOGOUT</Button>
-=======
-      <Button onClick={logout}>Logout</Button>
->>>>>>> main
     </div>
   );
 };

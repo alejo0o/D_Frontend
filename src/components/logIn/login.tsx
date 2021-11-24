@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import * as React from 'react';
-=======
->>>>>>> main
 import * as yup from 'yup';
 import { Formik } from 'formik';
 import { Button, CircularProgress } from '@mui/material';
@@ -62,11 +59,7 @@ const login = ({ handleSubmitLogin, loading }: ComponentProps): JSX.Element => {
             {loading ? (
               <CircularProgress color='secondary' size='1.5em' />
             ) : (
-<<<<<<< HEAD
               'LOG IN'
-=======
-              'Log In'
->>>>>>> main
             )}
           </Button>
         </Form>
