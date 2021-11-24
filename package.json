@@ -5,7 +5,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
@@ -28,6 +31,10 @@
     "yup": "0.32.11"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "5.15.0",
+    "@testing-library/react": "12.1.2",
+    "@testing-library/user-event": "13.5.0",
+    "@types/jest": "27.0.3",
     "@types/node": "16.11.7",
     "@types/nprogress": "0.2.0",
     "@types/react": "17.0.34",
@@ -35,6 +42,10 @@
     "babel-plugin-styled-components": "1.13.3",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.3",
+    "jest": "27.3.1",
+    "jest-dom": "4.0.0",
+    "msw": "0.35.0",
+    "ts-jest": "27.0.7",
     "typescript": "4.4.4"
   }
 }

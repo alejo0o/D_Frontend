@@ -1,3 +1,4 @@
+import * as React from 'react';
 import axios, { AxiosError } from 'axios';
 import { useState } from 'react';
 import type { NextPage } from 'next';
@@ -31,7 +32,7 @@ export const getServerSideProps = withSessionSsr(
   }
 );
 
-const index: NextPage = (props) => {
+const Index: NextPage = (props) => {
   /*-------------Variables de estado de la pagina-------------*/
   const [error, seterror] = useState<number>();
   const [loading, setloading] = useState<boolean>(false);
@@ -101,4 +102,4 @@ const index: NextPage = (props) => {
   );
 };
 
-export default index;
+export default Index;

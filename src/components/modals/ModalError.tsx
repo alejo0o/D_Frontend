@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import { ErrorModal } from '@/types/Modal.types';
 
