@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import * as React from 'react';
+=======
+>>>>>>> main
 import styled from 'styled-components';
 
 const StyledIcon = styled.i`
